@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1682708920911,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.73bc85a9cecd567e.js",
+        "/manifest.webmanifest",
+        "/polyfills.5d67b9e1b8d8160b.js",
+        "/runtime.1c6848dd503742d7.js",
+        "/scripts.4023c819c99a5fc8.js",
+        "/styles.77e2b6e0b951f905.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-48x48.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/imgs/candidatos/jaime.jpg",
+        "/assets/imgs/candidatos/mlp.jpg",
+        "/assets/imgs/candidatos/pineda.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "db260b70332c83392e7b7d5822d898df5b8941a3",
+    "/assets/icons/icon-144x144.png": "6390ff07d4a0d0fb4fd23de3dce0e61daabda55b",
+    "/assets/icons/icon-152x152.png": "b4b46441cead626d7ad3d3d8e441dbf2624f63f5",
+    "/assets/icons/icon-192x192.png": "d36d2b90620a5dba8a816961e2c28bd2c1eb8c58",
+    "/assets/icons/icon-384x384.png": "10994f77cfd8b0464e84a389ece84adde22beef4",
+    "/assets/icons/icon-48x48.png": "3d62cb1c8bda183bf28abec71ab3cd5ad2144b74",
+    "/assets/icons/icon-512x512.png": "a5b12beb011941346b5a0c993c8310f161f45205",
+    "/assets/icons/icon-72x72.png": "c2f6c2597ba21c031f4dfff03c1b69ff36b9f06a",
+    "/assets/icons/icon-96x96.png": "f789d0d27ac14c5c19b9918cbdd5d2db4cfa74fd",
+    "/assets/imgs/candidatos/jaime.jpg": "f207691a1604446cfc1369534fe6fc8e260beaf0",
+    "/assets/imgs/candidatos/mlp.jpg": "04363629a46403ffaa1c605d1554590625c54d28",
+    "/assets/imgs/candidatos/pineda.jpg": "43de56038bfaf91b225c5951d8b210b4fd1ba16d",
+    "/favicon.ico": "5ed92bf809e3f3143a829729465d914c3af7ada9",
+    "/index.html": "006dfd38a88622e5ca4a2fe9e4428c5eef61706b",
+    "/main.73bc85a9cecd567e.js": "7442d01fcb2b398bd4be57c857c74fd87e4a1e49",
+    "/manifest.webmanifest": "5de6b900ce6800d3e1fa48c911906aba0bef7063",
+    "/polyfills.5d67b9e1b8d8160b.js": "e578e1fe27fc118d343442c404c615e02c39ad2e",
+    "/runtime.1c6848dd503742d7.js": "8547f63468925229126a1d19e1ff64df31e6c1cf",
+    "/scripts.4023c819c99a5fc8.js": "b593cbb79b99717752e98d9731625d9f6dcdf955",
+    "/styles.77e2b6e0b951f905.css": "6d946c6b4a4d1a1dc54b5f1841a74bdc65510523"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
